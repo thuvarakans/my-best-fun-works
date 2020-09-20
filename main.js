@@ -3,6 +3,7 @@ SC.initialize({
 });
 
 $(document).ready(function() {
+//ENGLISH SONG-------------------------------------------------------------------------------------------------------------
   SC.stream('/tracks/128334697',function(sound){
     $('#start-e1').click(function(e) {
            e.preventDefault();
@@ -13,7 +14,6 @@ $(document).ready(function() {
            sound.stop();
         });
   });
-
   SC.stream('/tracks/24556266',function(sound){
     $('#start-e2').click(function(e) {
            e.preventDefault();
@@ -24,7 +24,6 @@ $(document).ready(function() {
            sound.stop();
         });
   });
-
   SC.stream('/tracks/172798789',function(sound){
     $('#start-e3').click(function(e) {
            e.preventDefault();
@@ -45,6 +44,7 @@ $(document).ready(function() {
              sound.stop();
           });
     });
+//MALAJALAM SONG-----------------------------------------------------------------------------------------------------------
     SC.stream('/tracks/282382733',function(sound){
         $('#start-m1').click(function(e) {
                e.preventDefault();
@@ -85,6 +85,7 @@ $(document).ready(function() {
                      sound.stop();
                   });
             });
+//TAMIL SONG---------------------------------------------------------------------------------------------------------------
             SC.stream('/tracks/378242777',function(sound){
                 $('#start-t1').click(function(e) {
                        e.preventDefault();
@@ -125,6 +126,53 @@ $(document).ready(function() {
                              sound.stop();
                           });
                     });
+			//00000000000000000
+	               SC.stream('/tracks/18687904',function(sound){
+                      $('#start-t5').click(function(e) {
+                             e.preventDefault();
+                             sound.start();
+                           });
+                      $('#stop-t4').click(function(e) {
+                             e.preventDefault();
+                             sound.stop();
+                          });
+                    });
+					
+					SC.stream('/tracks/309462270',function(sound){
+                      $('#start-t6').click(function(e) {
+                             e.preventDefault();
+                             sound.start();
+                           });
+                      $('#stop-t4').click(function(e) {
+                             e.preventDefault();
+                             sound.stop();
+                          });
+                    });
+					
+					SC.stream('/tracks/58085054',function(sound){
+                      $('#start-t7').click(function(e) {
+                             e.preventDefault();
+                             sound.start();
+                           });
+                      $('#stop-t4').click(function(e) {
+                             e.preventDefault();
+                             sound.stop();
+                          });
+                    });
+					
+					SC.stream('/tracks/628804965',function(sound){
+                      $('#start-t8').click(function(e) {
+                             e.preventDefault();
+                             sound.start();
+                           });
+                      $('#stop-t4').click(function(e) {
+                             e.preventDefault();
+                             sound.stop();
+                          });
+                    });
+					
+		//000000000000000000000000000000000000000000000
+//TELUNGO SONG-------------------------------------------------------------------------------------------------------------
                     SC.stream('/tracks/554389011',function(sound){
                         $('#start-i1').click(function(e) {
                                e.preventDefault();
@@ -165,5 +213,6 @@ $(document).ready(function() {
                                      sound.stop();
                                   });
                             });
+//-------------------------------------------------------------------------------------------------------------------------
 
 });
