@@ -132,7 +132,7 @@ $(document).ready(function() {
                              e.preventDefault();
                              sound.start();
                            });
-                      $('#stop-t4').click(function(e) {
+                      $('#stop-t5').click(function(e) {
                              e.preventDefault();
                              sound.stop();
                           });
@@ -143,7 +143,7 @@ $(document).ready(function() {
                              e.preventDefault();
                              sound.start();
                            });
-                      $('#stop-t4').click(function(e) {
+                      $('#stop-t6').click(function(e) {
                              e.preventDefault();
                              sound.stop();
                           });
@@ -154,7 +154,7 @@ $(document).ready(function() {
                              e.preventDefault();
                              sound.start();
                            });
-                      $('#stop-t4').click(function(e) {
+                      $('#stop-t7').click(function(e) {
                              e.preventDefault();
                              sound.stop();
                           });
@@ -165,7 +165,7 @@ $(document).ready(function() {
                              e.preventDefault();
                              sound.start();
                            });
-                      $('#stop-t4').click(function(e) {
+                      $('#stop-t8').click(function(e) {
                              e.preventDefault();
                              sound.stop();
                           });
